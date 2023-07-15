@@ -1,0 +1,45 @@
+.contactus{
+    background-color:#28282b;
+    height: 100%;
+    width: 100%;
+}
+.contactus_heading{
+    color: #EBEBEB;
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57.6px; /* 120% */
+}
+
+.input_tag{
+    width: 50%;
+}
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .contactus_heading{
+        font-size: 40px;
+
+    }
+    .input_tag{
+        width: 100%;
+    }
+  }
+  .submit_btn{
+    width: 150px;
+    background-color: #fd5e1f;
+    padding: 10px;
+    color: #fff;
+    border-radius:20px ;
+    
+  }
+  .submit_btn:hover{
+    background-color: #EBEBEB;
+    color: #28282b;
+ 
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+.input_tag{
+    width: 100%;
+}
+  }

@@ -1,0 +1,76 @@
+.adventure_section{
+  background-color: #28282B;
+  height: 100%;
+}
+.adventure_heading{
+  color: #EBEBEB;
+text-align: center;
+font-family: Dela Gothic One;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 57.6px; /* 120% */
+}
+
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .adventure_heading {
+    color: #fff;
+    text-align: center;
+    font-family: "Dela Gothic One", cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.2px; /* 110% */
+    width: 100%;
+  }
+  .welcome_subcontent{
+      font-family: "Nunito";
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25.2px;
+      width: 80%;
+  }
+  .input-group{
+    width: 260px !important;
+    height: 22px;
+  }
+  
+}
+.input-group{
+  width: 360px ;
+  height: 22px;
+}
+
+#button-addon2{
+background-color: #FD5E1F;
+color: #fff;
+}
+.input-group {
+  transition: transform 0.5s;
+}
+
+.input-group::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  content: '';
+  opacity: 0;
+  z-index: -1;
+}
+
+.input-group:hover,
+.input-group:focus {
+  transform: scale3d(1.05, 1.05, 1.06);
+}
+
+.input-group:hover::after,
+.input-group:focus::after {
+  opacity: 1;
+}
