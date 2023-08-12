@@ -19,7 +19,7 @@ function Footer() {
               style={{ width: "15px", height: "15px", marginRight: "10px" }}
               className="icon"
             />
-            Madhapur,Hyderabad
+            AndhraPradesh,India
           </p>
 
           <p>
@@ -30,7 +30,7 @@ function Footer() {
               style={{ width: "15px", height: "15px", marginRight: "10px" }}
               className="icon"
             />{" "}
-            +91 9391393516
+            +91 9988776655
           </p>
           <p>
             {" "}
@@ -39,7 +39,7 @@ function Footer() {
               style={{ width: "15px", height: "15px", marginRight: "10px" }}
               className="icon"
             />
-            info@digitaladventure.in
+            samplemarketing@gmail.com
           </p>
         </div>
         <div className="d-flex gap-5 pb-4 pt-5">
@@ -48,7 +48,7 @@ function Footer() {
           <img src={twitter_icon} style={{ width: "30px", height: "30px" }}  className="icon" />
           <img src={linkedin_icon} style={{ width: "30px", height: "30px" }}  className="icon" />
         </div>
-        <p>&copy; 2023 Digital Adventure</p>
+        <p>&copy; 2023 Digital Marketing</p>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ function Home({ scrollToSection }) {
           <div className="home_content">
             <div className="d-flex flex-column justify-content-center align-items-center ">
               <h1 className="home_heading text-center">DIGITAL</h1>
-              <h1 className="home_heading"> ADVENTURE</h1>
+              <h1 className="home_heading">MARKETING</h1>
               <div className="d-flex pt-5">
                 <a href="#" onClick={handleScrollToServices}>
                   Services
